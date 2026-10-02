@@ -1,6 +1,11 @@
 *{
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
+    background-image:url(https://www.bing.com/th/id/OIP.X4XxvqYxsq5TAfWelPmJ2QHaEK?w=193&h=135&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=ImgAns&rm=2);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .Flip, .Sounds {
@@ -12,12 +17,14 @@
 .Menu {
     display: flex;
     justify-content: space-evenly;
-    padding-left: 5px;
+    
 }
 
 h4 {
     font-size: 12px;
     margin-top: 5px;
+    color: white;
+    z-index: 1;
 }
 
 img {
@@ -50,8 +57,8 @@ img {
 }
 
 h6 {
-    color:grey;
-    flex
+    color:white;
+    z-index: 1;
 
     &:hover {
         color: black;
@@ -60,20 +67,32 @@ h6 {
 }
 
 #timer15s {
-    color: grey;
+    color: rgb(10, 9, 9);
 
     &:hover {
         color: black;
         opacity: 0.5;
+        
     }
 }
 
-span.RecordButton {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background-color: red;
-    display: block;
-    justify-content: center;
-    align-items: center;
+.Record {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 10px solid #af112b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.InnerCircle {
+  width: 30px;
+  height: 30px;
+  background-color: #131011;
+  border-radius: 50%;
+
+  /* border: 2px solid #111010; */
+  z-index: 1;
 }
