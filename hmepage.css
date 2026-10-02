@@ -16,8 +16,14 @@
 
 .Menu {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    top: 30px;
     
+}
+
+.Sounds {
+    position: absolute;
+    right: 170px;
 }
 
 h4 {
@@ -38,13 +44,15 @@ img {
     position: absolute;
     right: 30px;
     justify-content: space-evenly;
+    top: 10px;
+    right: 20px;
 }
 
 .BottomMenu {
     display: flex;
     justify-content: space-evenly;
     position: absolute;
-    bottom: 50px;
+    top: 565px;
     width: 100%;
 }
 
